@@ -1,5 +1,5 @@
 {
-  "name": "importer",
+  "name": "node-importer",
   "version": "1.0.0",
   "description": "Helps you to import all modules in a given directory.",
   "main": "index.js",
