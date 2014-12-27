@@ -2,6 +2,10 @@
 
 A node.js module that helps you to import all modules in a given directory.
 
+```
+npm install --save node-importer
+```
+
 ### importer (options, handler)
 _Synchronously_ retrieves all modules in a given directory and calls handler.
 
@@ -15,6 +19,8 @@ recursive | Boolean value indicating recursive mode | false
 
 * Example usage:
 ```
+var importer = require('node-importer');
+
 importer('modules/', function(module, name) {
     // foo.js : Hello world!
     console.log(name + '.js : ' + module.hello());
