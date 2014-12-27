@@ -1,20 +1,20 @@
-# importer
+# node-importer
 
-A node.js module that helps you to import all modules in a given directory.
+A node.js library that helps you to import (require) all sources in a given directory.
 
 ```
 npm install --save node-importer
 ```
 
 ### importer (options, handler)
-_Synchronously_ retrieves all modules in a given directory and calls handler.
+_Synchronously_ imports all sources in a given directory and calls handler.
 
 * `options` (object || string): Import options. (or module directory path)
 * `handler` (function): is called when import each module.
 
 Option    | Description                             | Default
 -------   | --------------------------------------- | ---------
-path      | Directory to import modules             | -
+path      | Directory to import sources             | -
 recursive | Boolean value indicating recursive mode | false
 
 * Example usage:
@@ -28,7 +28,7 @@ importer('modules/', function(module, name) {
 ```
 
 ### importer.async (options, handler)
-_Asynchronously_ retrieves all modules in a given directory and calls handler.
+_Asynchronously_ imports all sources in a given directory and calls handler.
 
 ### importer.express (expressApp, options)
 Use all modules in a directory as a express route. <br/>
