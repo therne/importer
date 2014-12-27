@@ -1,4 +1,4 @@
-# node-importer
+# importer
 
 A node.js library that helps you to import (require) all sources in a given directory.
 
