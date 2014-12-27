@@ -1,0 +1,24 @@
+{
+  "name": "importer",
+  "version": "1.0.0",
+  "description": "Helps you to import all modules in a given directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/retail3210/importer.git"
+  },
+  "keywords": [
+    "module",
+    "import",
+    "importer"
+  ],
+  "author": "vista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retail3210/importer/issues"
+  },
+  "homepage": "https://github.com/retail3210/importer"
+}
